@@ -293,11 +293,11 @@
 
     <!-- form -->
 
-    <div class="h-screen w-screen">
-        <h1 class="text-4xl pt-20 pl-10">Book A Table</h1>
+    <div class="h-screen w-screen ">
+        <!-- <h1 class="text-4xl pt-20 pl-10">Book A Table</h1> -->
 
-        <div>
-            <div class="w-[40%] mt-10 ml-10">
+        <div class="flex justify-center space-x-3 ">
+            <div class="w-[40%] mt-10 ml-10 bg-yellow-900 rounded-2xl p-3">
                 <input type="text" placeholder=" Your Name" class="w-[100%] border-[1px] border-black rounded-lg h-12 text-xl">
                 <br>
                 <br>
@@ -308,16 +308,24 @@
                 <br>
                 <br>
             
-                <select name="" id="" class="w-[100%] border-[1px] border-black rounded-lg h-12 text-xl">
-                    <option value="">How Many Persons</option>
-                    <option value="">1</option>
+                <select name="" id="" class="w-[100%] border-[1px] border-black rounded-lg h-12 text-xl ">
+                    
+                    <option value="" selected>How Many Persons</option>
+                    <option value="" >1</option>
                     <option value="">2</option>
                     <option value="">3</option>
                     <option value="">4</option>
                 </select>
+                <button class="py2 px-4 bg-yellow-400 text-xl rounded-2xl text-white font-serif sm:mt-10  sm:my-20 sm:ml-10 ">Submit</i></button>
 
             </div>
+
+            <div class="w-[40%] mt-10">
+                <img src="/images/backgroundimage.jpg" alt="" class=" h-[450px] rounded-2xl" >
+            </div>
+
         </div>
+
     </div>
 </body>
 </html>
